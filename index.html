@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YASSER EDITS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-content">
+            <img src="assets/images/yasser.png" alt="Yasser Logo" class="splash-logo">
+            <h1>YASSER EDITS</h1>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">YASSER EDITS</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <video class="hero-bg" src="assets/videos/sample-video.mp4" autoplay loop muted playsinline></video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>YASSER EDITS</h1>
+            <p>Professional video editing portfolio. Creativity in every frame.</p>
+            <a href="#gallery" class="btn neon">View Gallery</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <!-- My Edit (only your device video remains) -->
+                <div class="gallery-card" data-type="local" data-video="assets/videos/myedit.mp4">
+                    <div class="gallery-thumb">
+                        <video src="assets/videos/myedit.mp4" muted loop></video>
+                        <div class="play-btn"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>My Edit Title</h3>
+                        <p>This is a description of my video it is a warrior running.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-video" id="modalVideoContainer"></div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container about-container">
+            <div class="about-img">
+                <img src="assets/images/yasser.png" alt="Yasser Nasr">
+            </div>
+            <div class="about-info">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm <strong>Yasser Nasr</strong>, a passionate video editor dedicated to creating engaging and professional edits for all types of projects.<br>
+                    Watch my work on my <a href="https://www.youtube.com/@FILMATOR-GO" target="_blank" class="neon">YouTube channel</a>,
+                    connect with me on <a href="https://www.facebook.com/yasser.benali.71216" target="_blank" class="neon">Facebook</a>,
+                    or follow me on <a href="https://l.instagram.com/?u=http%3A%2F%2Fwww.instagram.yasser0008.com%2F%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAafwgXwew8jUmKsLQny4994Q1ayY2HvnH2umzwh0KhLbVq9hSclQ7UNSNxwsMg_aem_0I-atDS_zGK4skOdsA3wvA&e=AT0769zfbLigZ2Sk2yh2S8PFXXSAeF7lXyAOrgisCin5kJGT4UACErIhMaheZBAdLTNAnF4_rs3eugzeKa4Zj4IUG7GZkUU-jEH8m2jDQQ" target="_blank" class="neon">Instagram</a>.<br>
+                    For quick contact, message me on <strong>WhatsApp</strong>: <a href="https://wa.me/21697764541" target="_blank" class="neon">+216 97764541</a>.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/@FILMATOR-GO" target="_blank" class="neon"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/yasser.benali.71216" target="_blank" class="neon"><i class="fab fa-facebook"></i></a>
+                    <a href="https://l.instagram.com/?u=http%3A%2F%2Fwww.instagram.yasser0008.com%2F%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAafwgXwew8jUmKsLQny4994Q1ayY2HvnH2umzwh0KhLbVq9hSclQ7UNSNxwsMg_aem_0I-atDS_zGK4skOdsA3wvA&e=AT0769zfbLigZ2Sk2yh2S8PFXXSAeF7lXyAOrgisCin5kJGT4UACErIhMaheZBAdLTNAnF4_rs3eugzeKa4Zj4IUG7GZkUU-jEH8m2jDQQ" target="_blank" class="neon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/21697764541" target="_blank" class="neon"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container contact-container">
+            <h2>Contact</h2>
+            <div class="contact-details" style="margin-bottom:1.5rem;">
+                <p><strong>Email:</strong> <a href="mailto:yacernacr05@gmail.com" class="neon">yacernacr05@gmail.com</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/21697764541" class="neon" target="_blank">+216 97764541</a></p>
+            </div>
+            <form id="contactForm" autocomplete="off">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn neon">Send Message</button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            &copy; 2025 Video Edits Showcase. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
